@@ -4,6 +4,6 @@
     {
         public const string Equal = "==";
         public const string GreaterThan = ">=";
-        public const string SmallerThan = "<=";
+        public const string LessThan = "<=";
     }
 }
