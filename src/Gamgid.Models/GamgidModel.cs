@@ -20,6 +20,16 @@
         /// <summary>
         /// Represents query string for searching single or multiple fields 
         /// </summary>
-        public string Search { get; set; }
+        public string SearchKey { get; set; }
+
+        /// <summary>
+        /// Represents query string for searching single or multiple fields 
+        /// </summary>
+        public string SearchValue { get; set; }
+
+        /// <summary>
+        /// Represents query string for searching condition
+        /// </summary>
+        public string SearchCondition { get; set; }
     }
 }
